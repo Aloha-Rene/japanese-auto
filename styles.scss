@@ -1,0 +1,810 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+
+/*------------BEGIN HEADER--------------*/
+
+header {
+	background: #f55136;
+	height: 100px;
+	display: grid;
+	grid-template-columns: 33% 1fr 1fr;
+	color: white;
+	align-self: center;
+	div {
+		align-self: center;
+		text-align: center;
+		&:nth-child(1) {
+			font-size: 27px;
+			font-weight: 700;
+		}
+		&:nth-child(3) {
+			font-size: 2.3rem;
+			letter-spacing: 4px;
+			display: -webkit-inline-box;
+			background: linear-gradient(80deg, #f7755f 0%, #f55136 50%);
+			border-radius: 19px;
+			border-width: 0.5px 0.5px 0.5px 0.5px;
+			position: relative;
+			z-index: 1;
+			.join-span {
+				position: relative;
+				z-index: 2;
+				font-family: 'Tangerine', cursive;
+				font-weight: 700;
+				font-size: 3rem;
+				transform: rotate(-90deg);
+				-webkit-transform: rotate(334deg);
+				-moz-transform: rotate(334deg);
+				-ms-transform: rotate(334deg);
+				-o-transform: rotate(334deg);
+				transform: rotate(334deg);
+			}
+			.fas {
+				font-size: 69px;
+			}
+		}
+	}
+	.apply {
+		letter-spacing: 1px;
+		width: 260px;
+		height: 65px;
+		transform: skew(-15deg);
+		background: #ffffff;
+		color: red;
+		font-size: 14px !important;
+		text-align: center;
+		margin: auto;
+		-webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		-moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		box-shadow: 0px 0px 8px 2px #f3ebeb;
+		&:hover {
+			background: #00469a;
+			transition: .6s ease-in-out;
+			color: white;
+		}
+		p {
+			font-weight: bolder;
+			padding-top: 28px;
+			&:hover {
+				color: rgb(255, 255, 255);
+			}
+		}
+	}
+}
+
+
+/*------------END HEADER--------------*/
+
+
+/*------------BEGIN SHOPLOGO-SECTION--------------*/
+
+#logo-hours-review-appoinments {
+	margin-top: -30px;
+	height: 200px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 1fr;
+	align-items: center;
+	.left-side {
+		display: grid;
+		grid-template-columns: 50% 1fr;
+		.autoshoplogo-area {
+			float: left;
+			position: relative;
+			right: 20px;
+			top: 40px;
+			.logo {
+				float: right;
+				text-align: center;
+				span {
+					color: #d3261f;
+					font-size: 25px;
+					font-family: 'Carter One', cursive;
+				}
+				.span0 {
+					color: #240f0c;
+					font-size: 25px;
+					font-family: 'Carter One', cursive;
+				}
+				.span1 {
+					color: #240f0c;
+					font-size: 8px;
+				}
+			}
+		}
+		.info-area {
+			width: 80%;
+			position: relative;
+			top: 30px;
+			.hours-area {
+				float: left;
+				span {
+					font-weight: bolder;
+					font-size: 18px;
+				}
+				p {
+					margin-top: 3px;
+					font-size: 13px;
+					letter-spacing: 1px;
+				}
+			}
+		}
+	}
+	.right-side {
+		float: right;
+		.reviews-area {
+			position: relative;
+			top: 24px;
+			float: left;
+			.farmers-branch {
+				margin-right: 14px;
+				font-weight: bolder;
+				font-size: 18px;
+				text-decoration: none !important;
+			}
+			.review-count {
+				font-size: .9rem;
+				float: right;
+				text-decoration: underline;
+				margin-left: 12px;
+				position: relative;
+				top: 3px;
+			}
+		}
+		.stars-count {
+			float: right;
+			margin-top: 3px;
+			.fas {
+				color: #f55136;
+				margin-right: 5px;
+			}
+		}
+		.appointments-area {
+			float: right;
+			letter-spacing: 1px;
+			.appointments-text {
+				position: absolute;
+				right: 16px;
+				display: flex;
+				align-items: center;
+				overflow: hidden;
+				font-weight: 700;
+				width: 400px;
+				height: 65px;
+				transform: translate(8px, 0px) skew(-14deg, 0deg);
+				background: #00469a;
+				color: white;
+				font-size: 14px !important;
+				text-align: center;
+				margin: auto;
+				position: relative;
+				.text {
+					position: relative;
+					left: 50px;
+					&:hover {
+						background: linear-gradient(80deg, #f7755f 0%, #f55136 50%);
+						background: #f55136;
+						transition: .5s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+}
+
+#nav-bar {
+	width: 100%;
+	margin-top: -30px;
+	.nav-links {
+		margin-left: 353px;
+		ul {
+			li {
+				display: inline-block;
+				margin-left: 7px;
+				font-size: 14px;
+				letter-spacing: 0.2px;
+				word-spacing: 0px;
+				&:hover {
+					color: #f55136;
+					cursor: pointer;
+				}
+				&:nth-child(1) {
+					color: #f55136;
+				}
+				&:nth-child(9) {
+					margin-left: 60px;
+					font-size: 1.3rem;
+					letter-spacing: 0.3px;
+					font-weight: bold;
+					color: black;
+					span {
+						color: blue;
+						&:hover {
+							color: #f55136;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#top-section {}
+
+#top-section .bluredbg {}
+
+#top-section .tekashi-img {
+	margin: 0 auto;
+}
+
+#top-section .tekashi-img img {
+	max-width: 1420px;
+	height: 600px;
+}
+
+#top-section .floating-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.text {
+		position: absolute;
+		text-align: right;
+		color: white;
+		font-size: 3.3rem;
+		font-weight: 900;
+		right: 100;
+		bottom: -80px;
+	}
+}
+
+
+/*--------BEGIN BANNER SECTION-------*/
+
+#banner {
+	text-align: center;
+	margin-top: 60px;
+	.container {
+		.banner-main {
+			h1 {
+				position: relative;
+				display: block;
+				color: #f55136;
+				font: 700 2em/1em "Rajdhani", Arial, sans-serif;
+			}
+			h2 {
+				margin-bottom: .5em;
+				color: #303030;
+				font: 400 1.5em/1.25em "Lato", Arial, sans-serif;
+				text-transform: uppercase;
+			}
+			h3 {
+				width: 80%;
+				margin: 0 auto 10px;
+				color: #303030;
+				font: 400 1em/1.94em "Lato", Arial, sans-serif;
+			}
+			h4 {
+				letter-spacing: 1px;
+				width: 260px;
+				height: 65px;
+				transform: skew(-15deg);
+				background: #f55136;
+				color: white;
+				font-size: 21px !important;
+				text-align: center;
+				margin: auto;
+				-webkit-box-shadow: 0px 0px 8px 2px #f55136;
+				-moz-box-shadow: 0px 0px 8px 2px #f55136;
+				box-shadow: 0px 0px 8px 2px #f55136;
+				font: 700 2rem "Rajdhani", Arial, sans-serif;
+				&:hover {
+					cursor: pointer;
+					background: #00469a;
+					transition: .6s ease-in-out;
+					color: white;
+					-webkit-box-shadow: 0px 0px 8px 2px #00469a;
+					-moz-box-shadow: 0px 0px 8px 2px #00469a;
+					box-shadow: 0px 0px 8px 2px #00469a;
+				}
+				.redeem-now {
+					position: relative;
+					top: 28px;
+					font-weight: 900;
+				}
+			}
+		}
+	}
+}
+/*------END BANNER SECTION---------------*/
+/*-----BEGIN COMPANY-PERKS SECTION-------*/
+
+
+#company-perks {
+	margin-top: 40px;
+	position: relative;
+	z-index: 1;
+	height: 551px;
+	width: 100%;
+	background: white;
+	.technica {
+		img {
+			height: 350px !important;
+			width: 350px !important;
+			position: relative !important;
+			z-index: 11 !important;
+			float: right;
+			top: -242px;
+			transform: initial;
+			opacity: 1;
+			right: 70px;
+		}
+	}
+	img {
+		position: absolute;
+		z-index: 0;
+		top: -112px;
+		width: 50%;
+		transform: rotate(-20deg);
+		right: 332px;
+		opacity: 0.3;
+	}
+	.container {
+		border: 2px solid rgb(25, 0, 255);
+		height: 80%;
+		position: relative;
+		z-index: 2;
+		background: rgba(0, 70, 154, );
+		top: 110px;
+		img {
+			position: absolute;
+			right: 22px;
+			top: -22px;
+			transform: rotate(0deg);
+			height: 440px;
+			transform: rotate(0deg);
+			left: 0;
+		}
+		h1 {
+			opacity: 1;
+			z-index: 2;
+			position: absolute;
+			text-align: center;
+			color: white;
+			font-weight: bold !important;
+			font-size: 2.2rem;
+			padding: 15px;
+			background: #fdb927;
+			width: 100%;
+			height: 66px;
+			top: -67px;
+		}
+		.ul-list {
+			height: 100%;
+			width: 100%;
+			background: rgba(0, 70, 154, .5);
+			z-index: 4;
+			position: absolute;
+			color: white;
+			letter-spacing: 3px;
+			top: 0px;
+			padding: 56px 46px 56px 0px;
+			ul {
+				list-style-type: square;
+				color: white;
+				li {
+					font-weight: 100;
+					margin: 10px 0;
+					span {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.up-garage {
+			top: 20px;
+			z-index: 5 !important;
+			position: relative;
+			width: 100%;
+		}
+	}
+}
+/*----------END COMPANY-PERKS SECTION-------*/
+
+/* ------BEGIN AUTO REPAIR SECTION----- */
+
+#auto-repair {
+	height: 851px;
+	width: 100%;
+	background: white;
+	.container {
+		.main {
+			.header {
+				margin: 0 auto;
+				width: 100%;
+				height: 200px;
+				text-align: center;
+				h1 {
+					position: relative;
+					left: 39px;
+					font-size: 3rem;
+					background: white;
+					text-align: center;
+					width: 100%;
+					height: 150px;
+					padding: 50px;
+				}
+			}
+			.columns {
+				margin-top: 15px;
+			}
+			.left {
+				float: left;
+				height: 600px;
+				width: 33%;
+				line-height: 35px;
+				img {}
+			}
+			.middle {
+				float: left;
+				height: 600px;
+				width: 33%;
+				line-height: 35px;
+				img {
+					height: 300px;
+					width: 90%;
+				}
+			}
+			.right {
+				float: left;
+				height: 600px;
+				width: 33%;
+				line-height: 40px;
+				.senior {
+					margin: 20px 0;
+				}
+				ul {
+					li {
+						list-style-type: square;
+					}
+				}
+			}
+		}
+	}
+}
+/*-------------END AUTO REPAIR SECTION ----------*/
+
+/* --------BEGIN OUR SERVICES SECTION----------*/
+#our-services {
+	
+	.container {
+		.header {
+			margin: 0 auto;
+			width: 100%;
+			height: 200px;
+			text-align: center;
+			h1 {
+				position: relative;
+				font-size: 3rem;
+				background: white;
+				text-align: center;
+				width: 100%;
+				height: 150px;
+				padding: 50px;
+				font-weight: 900;
+            }
+        }
+        .cards-area{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;  
+			align-content: center;
+			font-family: rajdhani;
+			font-weight: bold;
+			font-size: 5rem;
+			float: left;
+            background: #61658b;
+			color: white;
+			.card{
+				margin: 3px;
+				h2{
+					font-size: 1.4rem;
+					text-align: center;
+				}
+			}
+            .box-image{
+				background: #f55136;
+				height: 300px;
+				width: 260px;
+				// display: flex;
+				position: relative;
+				&:hover{
+					background: #00469a;
+					cursor: pointer;
+				}
+				&.one{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+						width: 73%;
+						left: 33px;
+						bottom: 45px;
+						
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				h1{
+					position: absolute;
+    				top: 30px;
+   				    left: 40px;
+				}
+				&.two{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+						width: 94%;
+						left: 7px;
+						bottom: 45px;
+						
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				&.three{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+						width: 113%;
+						left: -17px;
+						bottom: 54px;
+						transform: skew;
+						transform: rotate(-15deg);
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				&.four{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+   					    width: 68%;
+                        left: 55px;
+                        bottom: -12px;
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				&.five{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+    					width: 94%;
+  					    left: 7px;
+  				        bottom: 31px;
+ 					    transform: rotate(137deg);
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				&.six{
+					h1{
+						position: absolute;
+						top: 30px;
+						   left: 40px;
+					}
+					img{
+						position: absolute;
+						width: 110%;
+						left: 7px;
+						bottom: 45px;
+						
+					}
+					h2{
+						position: absolute;
+						bottom: 0;
+						left: 40px;
+					}
+				}
+				h1{
+					position: absolute;
+    				top: 30px;
+   				    left: 40px;
+				}
+				img{
+					position: absolute;
+    				width: 74%;
+    				left: 36px;
+					bottom: 21px;
+					
+				}
+				h2{
+					position: absolute;
+					bottom: 0;
+					left: 40px;
+				}
+			}
+        }
+	}
+}
