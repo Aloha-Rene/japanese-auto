@@ -222,7 +222,7 @@ header {
 /*------------END HEADER--------------*/
 
 
-/*------------BEGIN SHOPLOGO-SECTION--------------*/
+/*------------BEGIN AUTOSHOPLOGO-INFO SECTION--------------*/
 
 #logo-hours-review-appoinments {
 	margin-top: -30px;
@@ -376,9 +376,9 @@ header {
 	}
 }
 
-#top-section {}
 
-#top-section .bluredbg {}
+
+
 
 #top-section .tekashi-img {
 	margin: 0 auto;
@@ -622,7 +622,7 @@ header {
 
 /* --------BEGIN OUR SERVICES SECTION----------*/
 #our-services {
-	
+
 	.container {
 		.header {
 			margin: 0 auto;
@@ -649,7 +649,7 @@ header {
 			font-weight: bold;
 			font-size: 5rem;
 			float: left;
-            background: #61658b;
+            background: white;
 			color: white;
 			.card{
 				margin: 3px;
@@ -807,4 +807,36 @@ header {
 			}
         }
 	}
+	.redeem-now {
+		display: flex;
+		align-content: center;
+		letter-spacing: 1px;
+		width: 260px;
+		height: 65px;
+		transform: skew(-15deg);
+		background: #f55136;
+		color: white;
+		font-size: 14px !important;
+		font-weight: 900;
+		text-align: center;
+		margin: auto;
+		-webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		-moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		box-shadow: 0px 0px 8px 2px #f3ebeb;
+		&:hover {
+			background: #00469a;
+			transition: .6s ease-in-out;
+			color: white;
+			cursor: pointer;
+		}
+		p {
+		    align-self: center;
+    		margin: 0 auto;
+			&:hover {
+				color: rgb(255, 255, 255);
+				cursor: pointer;
+			}
+		}
+	}
 }
+

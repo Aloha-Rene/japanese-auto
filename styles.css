@@ -214,7 +214,7 @@ header .apply p:hover {
 }
 
 /*------------END HEADER--------------*/
-/*------------BEGIN SHOPLOGO-SECTION--------------*/
+/*------------BEGIN AUTOSHOPLOGO-INFO SECTION--------------*/
 #logo-hours-review-appoinments {
   margin-top: -30px;
   height: 200px;
@@ -614,7 +614,7 @@ header .apply p:hover {
   font-weight: bold;
   font-size: 5rem;
   float: left;
-  background: #61658b;
+  background: white;
   color: white;
 }
 #our-services .container .cards-area .card {
@@ -753,6 +753,37 @@ header .apply p:hover {
   position: absolute;
   bottom: 0;
   left: 40px;
+}
+#our-services .redeem-now {
+  display: flex;
+  align-content: center;
+  letter-spacing: 1px;
+  width: 260px;
+  height: 65px;
+  transform: skew(-15deg);
+  background: #f55136;
+  color: white;
+  font-size: 14px !important;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  -moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  box-shadow: 0px 0px 8px 2px #f3ebeb;
+}
+#our-services .redeem-now:hover {
+  background: #00469a;
+  transition: 0.6s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+#our-services .redeem-now p {
+  align-self: center;
+  margin: 0 auto;
+}
+#our-services .redeem-now p:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
