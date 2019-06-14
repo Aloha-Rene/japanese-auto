@@ -786,4 +786,46 @@ header .apply p:hover {
   cursor: pointer;
 }
 
+/*BEGIN CLIENT-CAROUSEL SECTION*/
+#client-carousel {
+  position: absolute;
+  width: 100%;
+  background: red;
+}
+#client-carousel .main {
+  background-image: url("https://images.theconversation.com/files/218390/original/file-20180510-34024-1awkun6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  opacity: 0.09;
+  position: absolute;
+  z-index: 1;
+  filter: grayscale(100%);
+}
+#client-carousel .container .content-section {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 124px;
+}
+#client-carousel .container .content-section h2 {
+  font-size: 3rem;
+  font-family: roboto;
+  margin: 15px;
+}
+#client-carousel .container .content-section h3 {
+  font-style: italic;
+  margin: 15px;
+}
+#client-carousel .container .content-section h4 .chris-name {
+  font-weight: 900;
+  color: red;
+}
+#client-carousel .container .content-section h4 .all-reviews {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */

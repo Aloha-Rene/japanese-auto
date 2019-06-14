@@ -589,7 +589,6 @@ header {
 				height: 600px;
 				width: 33%;
 				line-height: 35px;
-				img {}
 			}
 			.middle {
 				float: left;
@@ -840,3 +839,51 @@ header {
 	}
 }
 
+/*BEGIN CLIENT-CAROUSEL SECTION*/
+#client-carousel{
+	position: absolute;
+	// height: 900px;
+	width: 100%;
+	background: red;
+		.main{
+			background-image: url('https://images.theconversation.com/files/218390/original/file-20180510-34024-1awkun6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip');
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			// margin: 0 auto;
+			height: 600px;
+			margin-top: 50px;
+			opacity: .09;
+			position: absolute;
+			z-index: 1;
+			filter: grayscale(100%);
+		}
+		.container{
+			.content-section{
+				// position: absolute; 
+  			    text-align: center;
+    	        margin: 0 auto;
+   		  	    position: relative;
+   			    top: 124px;
+				
+				h2{
+					font-size: 3rem;
+					font-family: roboto;
+					margin: 15px;
+				}
+				h3{
+					font-style: italic;				margin: 15px;
+				}
+				h4{
+					.chris-name{
+						font-weight: 900;
+						color: red;
+					}
+					.all-reviews{
+						font-weight: 700;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+}
