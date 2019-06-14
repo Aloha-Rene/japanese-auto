@@ -790,7 +790,6 @@ header .apply p:hover {
 #client-carousel {
   position: absolute;
   width: 100%;
-  background: red;
 }
 #client-carousel .main {
   background-image: url("https://images.theconversation.com/files/218390/original/file-20180510-34024-1awkun6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip");
@@ -818,6 +817,12 @@ header .apply p:hover {
 #client-carousel .container .content-section h3 {
   font-style: italic;
   margin: 15px;
+  line-height: 31px;
+  letter-spacing: 1px;
+}
+#client-carousel .container .content-section h4 {
+  line-height: 31px;
+  letter-spacing: 1px;
 }
 #client-carousel .container .content-section h4 .chris-name {
   font-weight: 900;
@@ -826,6 +831,34 @@ header .apply p:hover {
 #client-carousel .container .content-section h4 .all-reviews {
   font-weight: 700;
   text-decoration: underline;
+}
+#client-carousel .container .content-section .stars-count .fas {
+  color: #f55136;
+  margin-right: 5px;
+}
+#client-carousel .container .content-section .stars-count .chris-name {
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 15px;
+}
+#client-carousel .container .content-section .stars-count .all-reviews {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+#client-carousel .container .content-section .chevron-right {
+  position: absolute;
+  top: 62px;
+  right: -30px;
+  font-size: 2rem;
+  color: gray;
+}
+#client-carousel .container .content-section .chevron-left {
+  position: absolute;
+  top: 62px;
+  left: -30px;
+  font-size: 2rem;
+  color: gray;
 }
 
 /*# sourceMappingURL=styles.css.map */
