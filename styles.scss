@@ -841,17 +841,18 @@ header {
 
 /*BEGIN CLIENT-CAROUSEL SECTION*/
 #client-carousel{
-	position: absolute;
+	// position: absolute;
 	// height: 900px;
 	width: 100%;
 	// background: red;
+	
 		.main{
 			background-image: url('https://images.theconversation.com/files/218390/original/file-20180510-34024-1awkun6.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip');
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
 			// margin: 0 auto;
-			height: 600px;
+			height: 420px;
 			margin-top: 50px;
 			opacity: .09;
 			position: absolute;
@@ -879,36 +880,48 @@ header {
 				h4{
 					line-height: 31px;
 					letter-spacing: 1px;
-					.chris-name{
-						font-weight: 900;
-						color: red;
-					}
-					.all-reviews{
-						font-weight: 700;
-						text-decoration: underline;
-					}
+					// .chris-name{
+					// 	font-weight: 900;
+					// 	color: red;
+					// }
+					// .all-reviews{
+					// 	font-weight: 700;
+					// 	text-decoration: underline;
+					// }
 				}
 				.stars-count{
 					.fas {
 						color: #f55136;
-						margin-right: 5px;}
+						margin-right: 5px;
+					
+					}
 					.chris-name{
 						font-weight: 900;
 						font-size: 20px;
 						margin-right: 15px;
+					
 					}
 					.all-reviews{
 						font-weight: 700;
 						text-decoration: underline;
 						margin-left: 15px;
+						color: rgb(2, 2, 2);
+						cursor: pointer;
+						&:hover{
+							text-decoration: none;
+							cursor: pointer;
+						}
 					}
+					
+					
 				}
 				.chevron-right{
 					position: absolute;
   				    top: 62px;
    				    right: -30px;
    				    font-size: 2rem;
-    				color: gray;
+					color: gray;
+				
 				}
 				.chevron-left{
 					position: absolute;
@@ -920,3 +933,161 @@ header {
 			}
 		}
 }
+/*END CLIENT-CAROUSEL SECCTION*/
+
+
+/*BEGIN FINDING-US-SECTION*/
+#finding-us-section{
+	// width: 1250px;
+    height: 750px;
+    /* background: #00469a; */
+    position: relative;
+    top: 300px;
+	/* bottom: 200px; */
+	text-align: center;
+	.main{
+		background-image: url(http://images.unsplash.com/photo-1518623001395-125242310d0c?ixlib=rb-1.2.1&…0&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+   	    height: 25%;
+        background-position: center;
+		background-size: cover;
+	    margin-top: 20px;
+  		transform: rotate(2deg);
+  		-webkit-transform: rotate(2deg);
+  		-moz-transform: rotate(2deg);
+
+	}
+	.container{
+		position: relative;
+		// top: -40px;
+		bottom: 100px;
+		.content{
+			h1{
+				font-size: 4rem;
+				color: white;
+				// background: #f55136;
+				font-weight: 900;
+				margin-top: -40px;
+			}
+			.redeem-now {
+				display: flex;
+				// align-content: center;
+				justify-content: center;
+				align-items: center;
+				letter-spacing: 1px;
+				width: 260px;
+				height: 65px;
+				transform: skew(-15deg);
+				background: #f55136;
+				color: white;
+				font-size: 14px !important;
+				font-weight: 900;
+				text-align: center;
+				margin: auto;
+				margin-top: 45px;
+				// margin-top: 50px;
+				-webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+				-moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+				box-shadow: 0px 0px 8px 2px #f3ebeb;
+				&:hover {
+					background: #00469a;
+					transition: .6s ease-in-out;
+					color: white;
+					cursor: pointer;
+				}
+			}
+		.logo {
+					// float: right;
+					margin-top: 50px;
+					text-align: center;
+					span {
+						color: #d3261f;
+						font-size: 35px;
+						font-family: 'Carter One', cursive;
+					}
+					.span0 {
+						color: #240f0c;
+						font-size: 45px;
+						font-family: 'Carter One', cursive;
+					}
+					.span1 {
+						color: #240f0c;
+						font-size: 15px;
+					}
+				}
+		.social-media{
+			position: relative;
+			display: inline-block;
+			width: 283px;
+			height: 79px;
+			margin: 26px 0px;
+			text-align: center;
+			vertical-align: middle;
+			text-decoration: none;
+			font-size: 46px;
+			// background: orange;
+			text-align: center;
+			/* margin-left: 22px; */
+			.fab{
+				margin-left: 15px;
+			}
+			.fa-facebook{
+				color: #5c79ca;
+				&:hover{
+					color: re#5c79ca;
+					opacity: .7;
+					cursor: pointer;
+				}
+			}
+			.fa-google-plus{
+				color: #e24b35;
+				&:hover{
+					color: #e24b35;
+					opacity: .7;
+					cursor: pointer;
+				}
+			}
+			.fa-yelp{
+				color: #c73021;
+				&:hover{
+					opacity: .7;
+					cursor: pointer;
+				}
+			}
+		}
+		.call-us{
+			font-size: 1.9rem;
+    		letter-spacing: 0.3px;
+  		    font-weight: bold;
+			color: black;
+			   span{
+				color: #00469a;
+				&:hover{
+					color: #f55136;
+				}
+			   }
+		}
+		.address{
+			margin-top: 50px;
+			// font-size: 1.5rem;
+			h1{
+				font-size: 1.3rem;
+				text-align: center;
+				font-weight: 300;
+				color: black;
+			}
+			h2{
+				margin-top: 25px;
+				font-size: 1.3rem;
+				text-align: center;
+				font-weight: 300;
+				color: black;
+			}
+		}
+		}
+	
+	
+	}
+}
+/*END FINDING-US-SECTION*/
+
+

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -788,7 +789,6 @@ header .apply p:hover {
 
 /*BEGIN CLIENT-CAROUSEL SECTION*/
 #client-carousel {
-  position: absolute;
   width: 100%;
 }
 #client-carousel .main {
@@ -796,7 +796,7 @@ header .apply p:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 420px;
   margin-top: 50px;
   opacity: 0.09;
   position: absolute;
@@ -824,14 +824,6 @@ header .apply p:hover {
   line-height: 31px;
   letter-spacing: 1px;
 }
-#client-carousel .container .content-section h4 .chris-name {
-  font-weight: 900;
-  color: red;
-}
-#client-carousel .container .content-section h4 .all-reviews {
-  font-weight: 700;
-  text-decoration: underline;
-}
 #client-carousel .container .content-section .stars-count .fas {
   color: #f55136;
   margin-right: 5px;
@@ -845,6 +837,12 @@ header .apply p:hover {
   font-weight: 700;
   text-decoration: underline;
   margin-left: 15px;
+  color: #020202;
+  cursor: pointer;
+}
+#client-carousel .container .content-section .stars-count .all-reviews:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 #client-carousel .container .content-section .chevron-right {
   position: absolute;
@@ -860,5 +858,148 @@ header .apply p:hover {
   font-size: 2rem;
   color: gray;
 }
+
+/*END CLIENT-CAROUSEL SECCTION*/
+/*BEGIN FINDING-US-SECTION*/
+#finding-us-section {
+  height: 750px;
+  /* background: #00469a; */
+  position: relative;
+  top: 300px;
+  /* bottom: 200px; */
+  text-align: center;
+}
+#finding-us-section .main {
+  background-image: url(http://images.unsplash.com/photo-1518623001395-125242310d0c?ixlib=rb-1.2.1&…0&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+  height: 25%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+}
+#finding-us-section .container {
+  position: relative;
+  bottom: 100px;
+}
+#finding-us-section .container .content h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 900;
+  margin-top: -40px;
+}
+#finding-us-section .container .content .redeem-now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  width: 260px;
+  height: 65px;
+  transform: skew(-15deg);
+  background: #f55136;
+  color: white;
+  font-size: 14px !important;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  margin-top: 45px;
+  -webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  -moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  box-shadow: 0px 0px 8px 2px #f3ebeb;
+}
+#finding-us-section .container .content .redeem-now:hover {
+  background: #00469a;
+  transition: 0.6s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+#finding-us-section .container .content .logo {
+  margin-top: 50px;
+  text-align: center;
+}
+#finding-us-section .container .content .logo span {
+  color: #d3261f;
+  font-size: 35px;
+  font-family: "Carter One", cursive;
+}
+#finding-us-section .container .content .logo .span0 {
+  color: #240f0c;
+  font-size: 45px;
+  font-family: "Carter One", cursive;
+}
+#finding-us-section .container .content .logo .span1 {
+  color: #240f0c;
+  font-size: 15px;
+}
+#finding-us-section .container .content .social-media {
+  position: relative;
+  display: inline-block;
+  width: 283px;
+  height: 79px;
+  margin: 26px 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 46px;
+  text-align: center;
+  /* margin-left: 22px; */
+}
+#finding-us-section .container .content .social-media .fab {
+  margin-left: 15px;
+}
+#finding-us-section .container .content .social-media .fa-facebook {
+  color: #5c79ca;
+}
+#finding-us-section .container .content .social-media .fa-facebook:hover {
+  color: re #5c79ca;
+  opacity: 0.7;
+  cursor: pointer;
+}
+#finding-us-section .container .content .social-media .fa-google-plus {
+  color: #e24b35;
+}
+#finding-us-section .container .content .social-media .fa-google-plus:hover {
+  color: #e24b35;
+  opacity: 0.7;
+  cursor: pointer;
+}
+#finding-us-section .container .content .social-media .fa-yelp {
+  color: #c73021;
+}
+#finding-us-section .container .content .social-media .fa-yelp:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#finding-us-section .container .content .call-us {
+  font-size: 1.9rem;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  color: black;
+}
+#finding-us-section .container .content .call-us span {
+  color: #00469a;
+}
+#finding-us-section .container .content .call-us span:hover {
+  color: #f55136;
+}
+#finding-us-section .container .content .address {
+  margin-top: 50px;
+}
+#finding-us-section .container .content .address h1 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 300;
+  color: black;
+}
+#finding-us-section .container .content .address h2 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 300;
+  color: black;
+}
+
+/*END FINDING-US-SECTION*/
 
 /*# sourceMappingURL=styles.css.map */
