@@ -1147,5 +1147,64 @@ header {
 }
   /*mobile devices*/
   @media only screen and (max-width: 767px) { 
-
+	#logo-hours-review-appoinments .right-side .appointments-area {
+		/* float: right; */
+		/* letter-spacing: 1px; */
+		display: none;
+	}
+	#nav-bar .nav-links {
+		/* margin-left: 353px; */
+		display: none;
+	}
+	header{
+		display: block;
+		width: 112%;
+		height: 150px;
+		.apply{
+			margin-top: 15px;
+		}
+	}
+	header div:nth-child(1) {
+		padding-top: 15px;
+	}
+	header div:nth-child(3) {
+		display: none;
+	}
+	#top-section .tekashi-img{
+		display: none;
+	}
+	#logo-hours-review-appoinments .left-side .autoshoplogo-area {
+		position: absolute;
+		right: 98px;
+		top: 160px;
+	
+	}
+	#logo-hours-review-appoinments .left-side .info-area {
+		width: 80%;
+		position: absolute;
+		top: 231px;
+		left: 132px;
+		text-align: -webkit-center;
+	}
+	#logo-hours-review-appoinments .right-side {
+		position: absolute;
+		top: 251px;
+		left: 65px;
+		text-align: center;
+	}
+	#logo-hours-review-appoinments .right-side .reviews-area {
+		position: relative;
+		top: 24px;
+		left: 18px;
+	}
+	#logo-hours-review-appoinments .right-side .stars-count {
+		float: none; 
+		margin-top: px; 
+	}
+	#company-perks img {
+		display: none;
+	}
+	#company-perks .container h1 {
+		font-size: 1.5rem;
+	}
   }
