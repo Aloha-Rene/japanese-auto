@@ -381,7 +381,13 @@ header {
 
 
 #top-section .tekashi-img {
-	margin: 0 auto;
+	
+    margin: 0 auto;
+    background-image: url(https://enginenu.com/wp-content/uploads/2019/04/63-Top-2020-Toyota-Supra-Rumors-Rumors-Spy-Shoot.jpg );
+    width: 1200px;
+    height: 609px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #top-section .tekashi-img img {
@@ -399,7 +405,7 @@ header {
 		color: white;
 		font-size: 3.3rem;
 		font-weight: 900;
-		right: 100;
+		right: 116px;
 		bottom: -80px;
 	}
 }
@@ -1091,3 +1097,55 @@ header {
 /*END FINDING-US-SECTION*/
 
 
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+	#top-section{
+		width: 75%;
+	}
+	header .apply {
+		letter-spacing: 1px;
+		width: 240px;
+		height: 49px;
+		transform: skew(-15deg);
+		background: #ffffff;
+		color: red;
+		font-size: 14px !important;
+		text-align: center;
+		/* margin: auto; */
+		-webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		-moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+		box-shadow: 0px 0px 8px 2px #f3ebeb;
+	}
+	header div:nth-child(3) .join-span {
+		position: relative;
+		z-index: 2;
+		font-family: "Tangerine", cursive;
+		font-weight: 700;
+		font-size: 2rem;
+		transform: rotate(-90deg);
+		-webkit-transform: rotate(334deg);
+		-moz-transform: rotate(334deg);
+		-ms-transform: rotate(334deg);
+		-o-transform: rotate(334deg);
+		transform: rotate(334deg);
+	}
+	#logo-hours-review-appoinments {
+		margin-top: -30px;
+		height: 200px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 58% 1fr 1fr 1fr 1fr;
+		align-items: center;
+	}
+	#nav-bar .nav-links ul li:nth-child(9) {
+		margin-left: 0px; 
+	}
+	#logo-hours-review-appoinments .right-side .reviews-area .farmers-branch{
+		margin-bottom: 10px;
+	}
+		
+}
+  /*mobile devices*/
+  @media only screen and (max-width: 767px) { 
+
+  }
