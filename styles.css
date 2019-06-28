@@ -1093,6 +1093,10 @@ header .apply p:hover {
     display: none;
   }
 
+  #top-section .floating-img .text {
+    display: none;
+  }
+
   #logo-hours-review-appoinments .left-side .autoshoplogo-area {
     position: absolute;
     right: 98px;
