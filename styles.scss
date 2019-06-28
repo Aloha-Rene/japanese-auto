@@ -1145,7 +1145,7 @@ header {
 	}
 		
 }
-  /*mobile devices*/
+  /*-------------mobile devices---------------------------*/
   @media only screen and (max-width: 767px) { 
 	
 	#logo-hours-review-appoinments .right-side .appointments-area {
@@ -1164,7 +1164,7 @@ header {
 		.apply{
 			margin-top: 15px;
 			position: relative;
-			right: 26px;
+			right: 2px;
 			p{
 				position: relative;
 				bottom: 8px;
@@ -1174,7 +1174,7 @@ header {
 	header div:nth-child(1) {
 		padding-top: 15px;
 		position: relative;
-		left: -33px;
+		left: 0px;
 	}
 	header div:nth-child(3) {
 		display: none;
@@ -1251,13 +1251,13 @@ header {
 
 		top: -59px;
 		background: none;
-		font-size: 16px;
+		font-size: 15px;
 	
 	}
 	#auto-repair .container .main .header h1 {
 		position: relative;
 		left: -1px;
-		font-size: 2.7rem;
+		font-size: 2.4rem;
 		background: white;
 		text-align: center;
 		width: 100%;
@@ -1265,7 +1265,21 @@ header {
 		padding: 50px;
 		bottom: 32px;
 	}
+	#auto-repair .container .main .middle{
+		display: none;
+	}
+	#auto-repair .container .main .right{
+		display: none;
+	}
 	#auto-repair .container .main .left {
+		p{
+			line-height: 22px;
+			text-align: center;
+		}
+		img{
+			position: relative;
+			width: 100%;
+		}
 		float: none;
 		height: 600px;
 		width: 100%;
@@ -1275,12 +1289,10 @@ header {
 		width: 226px;
 	}
 	#client-carousel .container .content-section {
-
 		text-align: center;
 		margin: 0 auto;
 		position: relative;
 		top: 124px;
 		width: 80%;
-	
 	}
   }

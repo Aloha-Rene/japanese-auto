@@ -1059,7 +1059,7 @@ header .apply p:hover {
     margin-bottom: 10px;
   }
 }
-/*mobile devices*/
+/*-------------mobile devices---------------------------*/
 @media only screen and (max-width: 767px) {
   #logo-hours-review-appoinments .right-side .appointments-area {
     /* float: right; */
@@ -1080,7 +1080,7 @@ header .apply p:hover {
   header .apply {
     margin-top: 15px;
     position: relative;
-    right: 26px;
+    right: 2px;
   }
   header .apply p {
     position: relative;
@@ -1090,7 +1090,7 @@ header .apply p:hover {
   header div:nth-child(1) {
     padding-top: 15px;
     position: relative;
-    left: -33px;
+    left: 0px;
   }
 
   header div:nth-child(3) {
@@ -1166,13 +1166,13 @@ header .apply p:hover {
   #company-perks .container .ul-list {
     top: -59px;
     background: none;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #auto-repair .container .main .header h1 {
     position: relative;
     left: -1px;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     background: white;
     text-align: center;
     width: 100%;
@@ -1181,11 +1181,27 @@ header .apply p:hover {
     bottom: 32px;
   }
 
+  #auto-repair .container .main .middle {
+    display: none;
+  }
+
+  #auto-repair .container .main .right {
+    display: none;
+  }
+
   #auto-repair .container .main .left {
     float: none;
     height: 600px;
     width: 100%;
     line-height: 35px;
+  }
+  #auto-repair .container .main .left p {
+    line-height: 22px;
+    text-align: center;
+  }
+  #auto-repair .container .main .left img {
+    position: relative;
+    width: 100%;
   }
 
   #our-services .container .cards-area .box-image {
