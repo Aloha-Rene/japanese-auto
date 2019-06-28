@@ -1147,6 +1147,7 @@ header {
 }
   /*mobile devices*/
   @media only screen and (max-width: 767px) { 
+	
 	#logo-hours-review-appoinments .right-side .appointments-area {
 		/* float: right; */
 		/* letter-spacing: 1px; */
@@ -1158,7 +1159,7 @@ header {
 	}
 	header{
 		display: block;
-		width: 112%;
+		width: 100%;
 		height: 150px;
 		.apply{
 			margin-top: 15px;
@@ -1187,7 +1188,7 @@ header {
 	}
 	#logo-hours-review-appoinments .left-side .autoshoplogo-area {
 		position: absolute;
-		right: 107px;
+		right: 82px;
 		top: 160px;
 	
 	}
@@ -1195,14 +1196,21 @@ header {
 		width: 80%;
 		position: absolute;
 		top: 231px;
-		left: 97px;
+		left: 50px;
 		text-align: -webkit-center;
 	}
 	#logo-hours-review-appoinments .left-side .info-area .hours-area span {
 		font-weight: bolder;
 		font-size: 18px;
 		position: relative;
-		left: 18px;}
+		left: 18px;
+	}
+	
+	#logo-hours-review-appoinments .right-side .reviews-area {
+		position: relative;
+		top: 24px;
+		left: 0px;
+		}
 	#logo-hours-review-appoinments .right-side .reviews-area .farmers-branch span{
 		position: relative;
 		right: 30px;
@@ -1226,7 +1234,7 @@ header {
 	#logo-hours-review-appoinments .right-side .reviews-area {
 		position: relative;
 		top: 24px;
-		left: 18px;
+		left: 0px;
 	}
 	#logo-hours-review-appoinments .right-side .stars-count {
 		position: relative;
@@ -1244,6 +1252,35 @@ header {
 		top: -59px;
 		background: none;
 		font-size: 16px;
+	
+	}
+	#auto-repair .container .main .header h1 {
+		position: relative;
+		left: -1px;
+		font-size: 2.7rem;
+		background: white;
+		text-align: center;
+		width: 100%;
+		height: 150px;
+		padding: 50px;
+		bottom: 32px;
+	}
+	#auto-repair .container .main .left {
+		float: none;
+		height: 600px;
+		width: 100%;
+		line-height: 35px;
+	}
+	#our-services .container .cards-area .box-image {
+		width: 226px;
+	}
+	#client-carousel .container .content-section {
+
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+		top: 124px;
+		width: 80%;
 	
 	}
   }
