@@ -1162,10 +1162,18 @@ header {
 		height: 150px;
 		.apply{
 			margin-top: 15px;
+			position: relative;
+			right: 26px;
+			p{
+				position: relative;
+bottom: 8px;
+			}
 		}
 	}
 	header div:nth-child(1) {
 		padding-top: 15px;
+		position: relative;
+		left: -33px;
 	}
 	header div:nth-child(3) {
 		display: none;
@@ -1179,7 +1187,7 @@ header {
 	}
 	#logo-hours-review-appoinments .left-side .autoshoplogo-area {
 		position: absolute;
-		right: 98px;
+		right: 107px;
 		top: 160px;
 	
 	}
@@ -1187,9 +1195,28 @@ header {
 		width: 80%;
 		position: absolute;
 		top: 231px;
-		left: 132px;
+		left: 97px;
 		text-align: -webkit-center;
 	}
+	#logo-hours-review-appoinments .left-side .info-area .hours-area span {
+		font-weight: bolder;
+		font-size: 18px;
+		position: relative;
+		left: 18px;}
+	#logo-hours-review-appoinments .right-side .reviews-area .farmers-branch span{
+		position: relative;
+		right: 30px;
+		}
+
+
+
+
+
+
+
+
+
+
 	#logo-hours-review-appoinments .right-side {
 		position: absolute;
 		top: 251px;
@@ -1202,8 +1229,8 @@ header {
 		left: 18px;
 	}
 	#logo-hours-review-appoinments .right-side .stars-count {
-		float: none; 
-		margin-top: px; 
+		position: relative;
+		right: 50px;
 	}
 	#company-perks img {
 		display: none;

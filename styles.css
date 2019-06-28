@@ -1079,10 +1079,18 @@ header .apply p:hover {
   }
   header .apply {
     margin-top: 15px;
+    position: relative;
+    right: 26px;
+  }
+  header .apply p {
+    position: relative;
+    bottom: 8px;
   }
 
   header div:nth-child(1) {
     padding-top: 15px;
+    position: relative;
+    left: -33px;
   }
 
   header div:nth-child(3) {
@@ -1099,7 +1107,7 @@ header .apply p:hover {
 
   #logo-hours-review-appoinments .left-side .autoshoplogo-area {
     position: absolute;
-    right: 98px;
+    right: 107px;
     top: 160px;
   }
 
@@ -1107,8 +1115,20 @@ header .apply p:hover {
     width: 80%;
     position: absolute;
     top: 231px;
-    left: 132px;
+    left: 97px;
     text-align: -webkit-center;
+  }
+
+  #logo-hours-review-appoinments .left-side .info-area .hours-area span {
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+    left: 18px;
+  }
+
+  #logo-hours-review-appoinments .right-side .reviews-area .farmers-branch span {
+    position: relative;
+    right: 30px;
   }
 
   #logo-hours-review-appoinments .right-side {
@@ -1125,8 +1145,8 @@ header .apply p:hover {
   }
 
   #logo-hours-review-appoinments .right-side .stars-count {
-    float: none;
-    margin-top: px;
+    position: relative;
+    right: 50px;
   }
 
   #company-perks img {
