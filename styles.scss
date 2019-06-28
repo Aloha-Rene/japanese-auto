@@ -1166,7 +1166,7 @@ header {
 			right: 26px;
 			p{
 				position: relative;
-bottom: 8px;
+				bottom: 8px;
 			}
 		}
 	}
@@ -1237,5 +1237,13 @@ bottom: 8px;
 	}
 	#company-perks .container h1 {
 		font-size: 1.5rem;
+
+	}
+	#company-perks .container .ul-list{
+
+		top: -59px;
+		background: none;
+		font-size: 16px;
+	
 	}
   }

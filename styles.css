@@ -1156,6 +1156,12 @@ header .apply p:hover {
   #company-perks .container h1 {
     font-size: 1.5rem;
   }
+
+  #company-perks .container .ul-list {
+    top: -59px;
+    background: none;
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
