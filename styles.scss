@@ -1193,11 +1193,9 @@ header {
 	
 	}
 	#logo-hours-review-appoinments .left-side .info-area {
-		width: 80%;
-		position: absolute;
-		top: 231px;
+		width: 200px;
+		position: relative;
 		left: 84px;
-		text-align: -webkit-center;
 	}
 	#logo-hours-review-appoinments .left-side .info-area .hours-area span {
 		font-weight: bolder;
@@ -1305,4 +1303,20 @@ header {
 		}
 	}
   }
+  #client-carousel .container .content-section .stars-count .all-reviews {
+	  position: relative;
+	  right: 15px;
+  }
 
+  #finding-us-section {
+    position: relative;
+    top: 69px;
+	text-align: center;
+	.container{
+		.content{
+			h1{
+				font-size: 2.4rem;
+			}
+		}
+	}
+}
