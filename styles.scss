@@ -150,7 +150,7 @@ table {
 /*------------BEGIN HEADER--------------*/
 
 header {
-	background: #f55136;
+	background: #f5583e;
 	height: 100px;
 	display: grid;
 	grid-template-columns: 33% 1fr 1fr;
@@ -1188,7 +1188,7 @@ header {
 	}
 	#logo-hours-review-appoinments .left-side .autoshoplogo-area {
 		position: absolute;
-		right: 82px;
+		right: 104px;
 		top: 160px;
 	
 	}
@@ -1196,7 +1196,7 @@ header {
 		width: 80%;
 		position: absolute;
 		top: 231px;
-		left: 50px;
+		left: 84px;
 		text-align: -webkit-center;
 	}
 	#logo-hours-review-appoinments .left-side .info-area .hours-area span {
@@ -1213,7 +1213,7 @@ header {
 		}
 	#logo-hours-review-appoinments .right-side .reviews-area .farmers-branch span{
 		position: relative;
-		right: 30px;
+		right: 19px;
 		}
 
 
@@ -1288,11 +1288,21 @@ header {
 	#our-services .container .cards-area .box-image {
 		width: 226px;
 	}
+	#our-services .container .cards-area .box-image.five img {
+		position: absolute;
+		width: 94%;
+		left: 7px;
+		bottom: 74px;}
+	  
 	#client-carousel .container .content-section {
 		text-align: center;
 		margin: 0 auto;
 		position: relative;
-		top: 124px;
+		top: 46px;
 		width: 80%;
+		h2{
+			font-size: 2.8rem;
+		}
 	}
   }
+
