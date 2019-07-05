@@ -793,7 +793,7 @@ header .apply p:hover {
   cursor: pointer;
 }
 
-/*BEGIN CLIENT-CAROUSEL SECTION*/
+/**********BEGIN CLIENT-CAROUSEL SECTION**************/
 #client-carousel {
   width: 100%;
 }
@@ -866,7 +866,7 @@ header .apply p:hover {
 }
 
 /*END CLIENT-CAROUSEL SECCTION*/
-/*BEGIN FINDING-US-SECTION*/
+/****************BEGIN FINDING-US-SECTION***************/
 #finding-us-section {
   height: 750px;
   /* background: #00469a; */
@@ -1224,19 +1224,20 @@ header .apply p:hover {
   #client-carousel .container .content-section h2 {
     font-size: 2.8rem;
   }
-}
-#client-carousel .container .content-section .stars-count .all-reviews {
-  position: relative;
-  right: 15px;
-}
 
-#finding-us-section {
-  position: relative;
-  top: 69px;
-  text-align: center;
-}
-#finding-us-section .container .content h1 {
-  font-size: 2.4rem;
+  #client-carousel .container .content-section .stars-count .all-reviews {
+    position: relative;
+    right: 15px;
+  }
+
+  #finding-us-section {
+    position: relative;
+    top: 69px;
+    text-align: center;
+  }
+  #finding-us-section .container .content h1 {
+    font-size: 2.4rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
