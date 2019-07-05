@@ -271,6 +271,7 @@ header .apply p:hover {
 }
 #logo-hours-review-appoinments .right-side {
   float: right;
+  overflow: hidden;
 }
 #logo-hours-review-appoinments .right-side .reviews-area {
   position: relative;
@@ -304,30 +305,30 @@ header .apply p:hover {
   letter-spacing: 1px;
 }
 #logo-hours-review-appoinments .right-side .appointments-area .appointments-text {
-  position: absolute;
-  right: 16px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  font-weight: 700;
-  width: 400px;
+  letter-spacing: 1px;
+  width: 260px;
   height: 65px;
-  transform: translate(8px, 0px) skew(-14deg, 0deg);
+  transform: skew(-15deg);
   background: #00469a;
-  color: white;
+  color: #ffffff;
   font-size: 14px !important;
   text-align: center;
   margin: auto;
-  position: relative;
+  -webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  -moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  box-shadow: 0px 0px 8px 2px #f3ebeb;
+}
+#logo-hours-review-appoinments .right-side .appointments-area .appointments-text:hover {
+  background: #f5583e;
+  transition: 0.6s ease-in-out;
+  color: white;
 }
 #logo-hours-review-appoinments .right-side .appointments-area .appointments-text .text {
-  position: relative;
-  left: 50px;
+  font-weight: bolder;
+  padding-top: 28px;
 }
 #logo-hours-review-appoinments .right-side .appointments-area .appointments-text .text:hover {
-  background: linear-gradient(80deg, #f7755f 0%, #f55136 50%);
-  background: #f55136;
-  transition: 0.5s ease-in-out;
+  color: white;
 }
 
 #nav-bar {
